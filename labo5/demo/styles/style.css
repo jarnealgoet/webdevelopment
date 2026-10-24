@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+.styleYellow
+{color:yellow;}
+
+
+.styleRed {
+    color: red;
+    font-size: 3em;
+}
+
+#menu
+{
+    color:blue;
+}
+
+/*section h1*/
+/*{color:Yellow;}*/
+section>h1
+{color:green;}
+
+h1, h2{
+    color : blue;
+    font-size : 5em;
+    margin: 0px;
+}
