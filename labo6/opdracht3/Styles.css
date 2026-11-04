@@ -1,0 +1,55 @@
+/* Algemene instellingen */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+/* Koppen in de header */
+header h1,
+header h2 {
+    color: #EDF2F4;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+/* Opmaak van de 3 blokken (padding) */
+header,
+footer,
+.education {
+    padding: 30px;
+}
+
+/* Header & Footer styling */
+header,
+footer {
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+
+/* Witruimte creëren tussen de blokken */
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+/* Education sectie styling */
+.education {
+    background-color: #8D99AE;
+    color: #2B2D42;
+}
+
+/* Links */
+a {
+    color: #EF233C;
+}

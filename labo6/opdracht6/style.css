@@ -1,0 +1,19 @@
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    margin-bottom: 8px;
+    padding-left: 25px;
+    /* Standaard voor élk item: een leeg hokje */
+    background-image: url('unchecked.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+}
+
+/* Alleen items met class="checked" krijgen het vinkje */
+.checklist li.checked {
+    background-image: url('vinkje.png');
+}
