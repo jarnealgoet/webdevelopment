@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Pagina exact 95% breed en gecentreerd */
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Header & Afbeeldingen */
+header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content-img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Navigatie */
+nav {
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav h2 {
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secties en Artikelen */
+section {
+    margin-bottom: 30px;
+}
+
+article {
+    background-color: #fafafa;
+    border: 1px solid #e1e4e8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Tabel Stijlen voor de 'Vrienden' sectie */
+.friends-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 0.95em;
+    background: #ffffff;
+    border: 1px solid #006699;
+    margin-bottom: 20px;
+}
+
+.friends-table th {
+    background-color: #006699;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid #004466;
+}
+
+.friends-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #dddddd;
+    color: #333333;
+}
+
+.friends-table tbody tr:nth-child(even) {
+    background-color: #f0f7ff;
+}
+
+.friends-table tbody tr:hover {
+    background-color: #e2f0ff;
+}
+
+/* Aside & Footer */
+aside {
+    background-color: #eef2f7;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.onbekend {
+    background-color: red;
+}

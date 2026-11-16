@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #999;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Maand hoofding achtergrond: rgb(170, 170, 200) */
+thead tr:first-child th {
+    background-color: rgb(170, 170, 200);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+/* Dag hoofding: tekstkleur rgb(200, 190, 240) en achtergrond rgb(35, 37, 70) */
+thead tr:nth-child(2) th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+/* Weekends (eerste en laatste kolom van elke rij) een roze achtergrond rgb(255, 220, 220) */
+/* Geregeld via :first-child en :last-child zonder speciale 'weekend'-class */
+tbody tr td:first-child,
+tbody tr td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+/* Dagen uit een vorige/volgende maand krijgen een grijze kleur */
+td.other-month {
+    color: #999;
+    background-color: #e0e0e0; /* Optioneel om de achtergrond ook grijs te maken zoals in het voorbeeld */
+}
+
+/* Feestdagen (6e en 25ste, plus Nieuwjaar) krijgen achtergrond rgb(250, 120, 120) */
+td.holiday {
+    background-color: rgb(250, 120, 120);
+}
