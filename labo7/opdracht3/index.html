@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Persoonlijke Homepagina van Jarne Algoet</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Externe CSS-link naar de submap 'styles' -->
+
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <h1>Welkom op de persoonlijke pagina van Jarne Algoet</h1>
+        <img src="images/Screenshot_20261012_153956_WhatsApp.jpg" alt = "Profielfoto"/>
+        <address>
+            <strong>Volledige naam:</strong> Jarne Algoet<br>
+            <strong>Adres:</strong> Waterstraat nr4, 8800, Roeselare<br>
+            <strong>Telefoonnummer:</strong> 0412 34 56 78<br>
+            <strong>E-mailadres:</strong> <a href="mailto:jarne.algoet@email.com">jarne.algoet@email.com</a>
+        </address>
+    </header>
+
+    <!-- Navigatie / Menu -->
+    <nav>
+        <h2>Navigatie</h2>
+        <ul>
+            <li><a href="#hobbys">Hobby's</a></li>
+            <li><a href="#interesses">Interesses</a></li>
+            <li><a href="#vrienden">Vrienden</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hoofdinhoud -->
+    <main>
+        <!-- Hobby's -->
+        <section id="hobbys">
+            <h2>Mijn Hobby's</h2>
+
+            <article>
+                <h3>1. Zwemmen</h3>
+                <p>Ik ga wekelijks zwemmen in mijn zwemclub in Moorslede om aan mijn conditie te werken.</p>
+                <p>Meer info: <a href="https://www.jongedolfijnen.be/" target="_blank">Zwemclub Jonge Dolfijnen</a></p>
+            </article>
+
+            <article>
+                <h3>2. Gamen</h3>
+                <p>In mijn vrije tijd speel ik graag competitieve of solo games.</p>
+                <p>Meer info: <a href="https://www.playstation.com/en-us/" target="_blank">Playstation Store</a></p>
+            </article>
+
+            <article>
+                <h3>3. Wandelen</h3>
+                <p>In het weekend maak ik graag lange wandelingen in de natuur om tot rust te komen.</p>
+                <p>Meer info: <a href="https://www.natuurpunt.be" target="_blank">Natuurpunt</a></p>
+            </article>
+        </section>
+
+        <!-- Interesses -->
+        <section id="interesses">
+            <h2>Mijn Interesses</h2>
+
+            <article>
+                <h3>Favoriete sport: Voetbal</h3>
+                <p>Mijn favoriete voetbalclub is Manchester United, ze spelen in de Premier League.</p>
+                <img src="images/manchester-united-logo.png" alt = "Manchester United"/>
+                <p><a href="https://www.manutd.com/en" target="_blank">Officiële website van Manchester United</a></p>
+            </article>
+
+            <article>
+                <h3>Favoriete Film: Jurassic World</h3>
+                <p>De eerste film dat ik ooit in een cinema heb gekeken, de film heeft goede acteurs met veel actie en spanning.</p>
+                <img src="images/jurassic-world.jpg" alt = "Jurassic World"/>
+                <p><a href="https://www.imdb.com/title/tt0369610" target="_blank">Bekijk op IMDb</a></p>
+            </article>
+        </section>
+
+        <!-- Vrienden (Nieuwe Sectie met Tabel) -->
+        <table class="friends-table">
+            <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Familienaam</th>
+                <th>Straat</th>
+                <th>Postcode</th>
+                <th>Woonplaats</th>
+                <th>Telefoonnummer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr> <!-- Oneven rij (1e rij) -->
+                <td>Thomas</td>
+                <td>De Smet</td>
+                <td>Kerkstraat 12</td>
+                <td class="onbekend">Onbekend</td> <!-- Onbekend op oneven rij -->
+                <td>Roeselare</td>
+                <td>0412 34 56 78</td>
+            </tr>
+            <tr class="alt"> <!-- Even rij (2e rij) -->
+                <td>Laura</td>
+                <td>Vandenberghe</td>
+                <td>Marktplein 5</td>
+                <td>8500</td>
+                <td>Kortrijk</td>
+                <td class="onbekend">Onbekend</td> <!-- Onbekend op even rij -->
+            </tr>
+            <tr> <!-- Oneven rij (3e rij) -->
+                <td>Pieter</td>
+                <td>Claeys</td>
+                <td>Stationsstraat 45</td>
+                <td>8200</td>
+                <td>Brugge</td>
+                <td>0477 12 34 56</td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jarne Algoet. Alle rechten voorbehouden.</p>
+    </footer>
+</div>
+
+</body>
+</html>
