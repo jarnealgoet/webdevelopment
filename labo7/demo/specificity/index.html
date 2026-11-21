@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        h1 {
+            color : yellow;
+        }
+    </style>
+</head>
+<body>
+<!--Voorrangsregels in volgorde
+Inline CSS (style="color: green;") heeft normaal voorrang op gewone interne en externe CSS.
+Interne CSS (<style>) en externe CSS (<link>) hebben dezelfde voorrang.
+Bij gelijke specificiteit wint de regel die het laatst staat -->
+
+<!-- example 1 -->
+<h1 style="color: blue">example 1</h1>
+
+<h1>example 1</h1>
+
+<!-- example 2 -->
+<header>
+    <h1>example 2</h1>
+</header>
+<!-- example 3 -->
+<header class="hoofd">
+    <h1>example 3</h1>
+</header>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+
+/* Algemene instellingen */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    color: #444444;
+}
+
+/* Canvas */
+.canvas {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Hoofdtitel */
+h1 {
+    color: rgb(0, 126, 126);
+    font-size: 150%;
+}
+
+/* Ondertitels */
+h2 {
+    color: rgb(0, 126, 126);
+    font-size: 130%;
+}
+
+/* Cocktailafbeeldingen bovenaan */
+.cocktails {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cocktails img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kolommen */
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Linkerkolom */
+.content {
+    width: 70%;
+    padding: 10px;
+}
+
+/* Quote */
+.quote {
+    margin: 30px;
+    padding: 20px 20px 20px 60px;
+    color: #444444;
+    background-color: #a7cece;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 35px 35px;
+    border: 2px dotted white;
+}
+
+/* Rechterkolom */
+.weekly {
+    width: 30%;
+    border: 2px solid #7acece;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Weekly Specials titel */
+.weekly h2 {
+    color: #333333;
+}
+
+/* Titels drankjes */
+.weekly h3 {
+    color: #cc3333;
+    font-size: 100%;
+}
+
+/* Afbeeldingen drankjes */
+.weekly img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Tekst Weekly Specials */
+.weekly p {
+    font-size: 70%;
+    padding: 5px;
+}
+
+/* Links */
+a {
+    color: #444444;
+    text-decoration: none;
+}
+
+/* Hover */
+a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 20px;
+}
